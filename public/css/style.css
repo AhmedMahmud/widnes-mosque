@@ -830,25 +830,49 @@ button:hover, button:focus {
   .directions p,
   .donate p,
   .about p {
-    font-size: 22px;
+    font-size: 20px;
   }
 }
 
-/* Small Devices, Tablets */
-@media only screen and (min-width: 768px) {
-  .logo {
-    left: 80px;
-    top: 25px;
+@media only screen and (min-width: 1px) and (max-width: 576px) {
+  .title {
+    font-size: 30px;
   }
-  .logo img {
-    width: auto;
-  }
-  .th-nav-btn {
-    right: 80px;
-    top: 45px;
-  }
-}
 
-@media only screen and (min-width: 768px) and (max-width: 992px) {
- 
+  .navbar-brand {
+    max-width: 70%;
+  }
+
+  .navbar-toggler-icon {
+    width: 1.2rem;
+  }
+
+  .hero-text {
+    line-height: 50px;
+  }
+
+  .time-section .content p {
+    font-size: 16px;
+  }
+
+  .primary,
+  .time-section .content pre,
+  .time-section .content h4 {
+    font-size: 18px !important;
+  }
+
+  .directions p,
+  .donate p,
+  .about p {
+    font-size: 18px;
+    margin-top: 30px;
+  }
+
+  .donate {
+    backdrop-filter: blur(1px) brightness(70%) contrast(105%) saturate(130%);
+  }
+
+  .donate p {
+    font-weight: 600;
+  }
 }
