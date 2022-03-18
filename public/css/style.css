@@ -523,13 +523,14 @@ button:hover, button:focus {
   padding-top: 80px;
   text-align: center;
   /* letter-spacing: 3px; */
-  background-color: rgba(188, 163, 113, 0.05);
-  /* background-image: url("../images/fabric.png"); */
-  /* background-blend-mode: multiply; */
+  background-color: rgba(188, 163, 113, 0.2);
+  background-image: url("../images/fabric.png");
+  background-blend-mode: multiply;
 }
 
 .time-section .content pre,
-.time-section .content h4 {
+.time-section .content h4,
+.time-section .jummah span {
   margin-bottom: 1rem;
   font-family: "Montserrat", sans-serif;
   font-size: 26px;
@@ -546,6 +547,15 @@ button:hover, button:focus {
   margin-top: 2px;
 }
 
+.time-section .jummah {
+  margin-top: 30px;
+  text-align: center !important;
+}
+
+.time-section .jummah span {
+  font-weight: bold;
+}
+
 .primary {
   color: #BCA371 !important;
   /* background-color: white; */
@@ -556,7 +566,7 @@ button:hover, button:focus {
 }
 
 .time-section-content .btn {
-  margin-top: 60px;
+  margin-top: 40px;
 }
 
 /* Case Study Description Style */
@@ -610,12 +620,24 @@ button:hover, button:focus {
 }
 
 .donate {
-  backdrop-filter: blur(0px) brightness(80%) contrast(105%) saturate(130%);
+  backdrop-filter: blur(0px) brightness(60%) contrast(105%) saturate(130%);
 }
 
 .donate-content p {
   font-size: 30px;
   font-family: 'Montserrat', sans-serif;
+}
+
+.donate .details {
+  margin-top: 20px;
+}
+
+.donate .details p {
+  margin: 0;
+}
+
+.donate .details b {
+  color: #BCA371;
 }
 
 .donate .btn {
@@ -711,7 +733,8 @@ button:hover, button:focus {
 
   .primary,
   .time-section .content pre,
-  .time-section .content h4 {
+  .time-section .content h4,
+  .time-section .jummah span {
     font-size: 24px !important;
   }
   
@@ -823,7 +846,8 @@ button:hover, button:focus {
   }
   .primary,
   .time-section .content pre,
-  .time-section .content h4 {
+  .time-section .content h4,
+  .time-section .jummah span {
     font-size: 22px !important;
   }
 
@@ -857,7 +881,8 @@ button:hover, button:focus {
 
   .primary,
   .time-section .content pre,
-  .time-section .content h4 {
+  .time-section .content h4,
+  .time-section .jummah span {
     font-size: 18px !important;
   }
 
