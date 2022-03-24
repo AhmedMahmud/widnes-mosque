@@ -715,6 +715,9 @@ button:hover, button:focus {
   100%  { background-color: #BCA371; }
 }
 
+.pre-img {
+   background-image: url("../images/hero3-min.jpg");
+}
 
 /**
  * ---------------------------------------------------------------------------

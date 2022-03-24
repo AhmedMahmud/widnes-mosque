@@ -140,7 +140,7 @@ $(document).ready(function() {
       $("#nav-border").addClass("nav-border");
     }
   });
-  console.log("wefwef");
+  $(".hero-area").removeClass("pre-img")
   var myModal = new bootstrap.Modal(document.getElementById('exampleModal'), {
     keyboard: false
   })
