@@ -660,6 +660,53 @@ button:hover, button:focus {
   margin-bottom: 50px;
 }
 
+.modal-content {
+  border-radius: 0;
+}
+
+.modal-content hr {
+  background-color: black;
+}
+
+.modal-dialog {
+  max-width: 768px;
+  padding: 30px;
+}
+
+.ttt {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 100;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-footer {
+  border-top: none;
+}
+
+.modal h4 {
+  font-size: 30px;
+  color: #BCA371;
+}
+
+.modal-body p {
+  font-size: 20px;
+  color: #171717;
+}
+
+.announcement {
+  padding: 20px;
+}
+
+.announcement.btn {
+  background-color: #BCA371;
+  color: white;
+}
+
 
 /**
  * ---------------------------------------------------------------------------
@@ -675,6 +722,7 @@ button:hover, button:focus {
   text-align: center;
   backdrop-filter: blur(0px) brightness(60%) contrast(120%) saturate(120%);
   color: white;
+  /* background-image: url("../images/hero3-min.jpg"); */
 }
 
 .hero-text {
@@ -899,5 +947,18 @@ button:hover, button:focus {
 
   .donate p {
     font-weight: 600;
+  }
+
+  .modal-dialog {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .modal h4 {
+    font-size: 22px;
+  }
+
+  .modal p {
+    font-size: 16px;
   }
 }

@@ -140,6 +140,12 @@ $(document).ready(function() {
       $("#nav-border").addClass("nav-border");
     }
   });
+  console.log("wefwef");
+  var myModal = new bootstrap.Modal(document.getElementById('exampleModal'), {
+    keyboard: false
+  })
+  myModal.show();
+  // $(".annoucement").trigger('click');
 
   var date = new Date();
   var flag = false;
