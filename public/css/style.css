@@ -705,6 +705,14 @@ button:hover, button:focus {
 .announcement.btn {
   background-color: #BCA371;
   color: white;
+  border: none;
+  animation: blinkingBackground 1s infinite;
+}
+
+@keyframes blinkingBackground{
+  0%		{ background-color: #BCA371; }
+  50%		{ background-color: rgb(114, 98, 67); }
+  100%  { background-color: #BCA371; }
 }
 
 
