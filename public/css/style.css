@@ -706,7 +706,7 @@ button:hover, button:focus {
   background-color: #BCA371;
   color: white;
   border: none;
-  animation: blinkingBackground 1s infinite;
+  /* animation: blinkingBackground 1s infinite; */
 }
 
 @keyframes blinkingBackground{

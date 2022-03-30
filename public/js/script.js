@@ -140,7 +140,6 @@ $(document).ready(function() {
       $("#nav-border").addClass("nav-border");
     }
   });
-  $(".hero-area").removeClass("pre-img")
   var myModal = new bootstrap.Modal(document.getElementById('exampleModal'), {
     keyboard: false
   })
@@ -164,4 +163,5 @@ $(document).ready(function() {
   if (!flag) {
     $(`#day-table>div:nth-child(${2})`).find(".row").children().eq(2).find("p").addClass("primary");
   }
+  $(".hero-area").removeClass("pre-img")
 });
