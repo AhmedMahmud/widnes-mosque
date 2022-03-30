@@ -129,6 +129,7 @@ var times = {
 }
 
 $(document).ready(function() {
+  $('#loader').css('display', 'none');
   $(document).on("scroll", function () {
     if
       ($(document).scrollTop() > 206) {
